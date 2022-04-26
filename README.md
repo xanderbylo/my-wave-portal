@@ -1,15 +1,24 @@
-# Basic Sample Hardhat Project
+# :wave: WavePortal
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+![GitHub last commit](https://img.shields.io/github/last-commit/xanderbylo/my-wave-portal) 
 
-Try running some of the following tasks:
+ A Web3 app built with Solidity that lets users send a wave and records it on the blockchain through an Ethereum smart contract.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+## :floppy_disk: Technologies
+
+* Alchemy
+* CSS
+* Ethereum
+* Git
+* GitHub
+* HTML
+* JavaScript
+* React
+* Replit
+* Solidity
+* Terminal
+* VSCode
+
+## :bulb: Things I learnt
+
+* How to write a smart contract using Solidity
