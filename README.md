@@ -8,21 +8,20 @@
 
 [my-wave-portal](https://waveportal.xanderbylo.repl.co/)
 
-## :floppy_disk: Technologies
+## :floppy_disk: Deploy contract locally
 
-* Alchemy
-* CSS
-* Ethereum
-* Git
-* GitHub
-* HTML
-* JavaScript
-* React
-* Replit
-* Solidity
-* Terminal
-* VSCode
+- Run `npx hardhat node` in terminal
+- Run `npx hardhat run scripts/deploy.js --network localhost` to deploy contract to hardhat test network
+- Connect MetaMask to local hardhat test network
+- Update contract address inside `App.jsx`
+- Update contract `abi` with the json located at `artifacts/contracts/WavePortal.sol/WavePortal.json`
+- Run `npm start` inside `ui` folder
 
-## :bulb: Things I learnt
+## :minidisc: Deploy contract to Rinkeby Ethereum Test Network
 
-* How to write a smart contract using Solidity
+- Update `hardhat.config.js` with the Rinkeby url and Ethereum account
+- Run `npx hardhat run scripts/deploy.js --network rinkeby` in terminal
+- Select Rinkeby network in MetaMask
+- Update contract address inside `App.jsx`
+- Update contract `abi` with the json located at `artifacts/contracts/WavePortal.sol/WavePortal.json`
+- Run `npm start` inside `ui` folder
